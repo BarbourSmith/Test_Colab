@@ -94,8 +94,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 9,
-          "currentEquation": "9"
+          "ioValue": 7
         },
         {
           "name": "zDist",
