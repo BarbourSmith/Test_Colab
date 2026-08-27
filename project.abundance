@@ -94,7 +94,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 6
+          "ioValue": 11
         },
         {
           "name": "zDist",
@@ -150,8 +150,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": -9,
-          "currentEquation": "-9"
+          "ioValue": -9
         },
         {
           "name": "zDist",
