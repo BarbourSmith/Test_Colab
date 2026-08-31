@@ -2,7 +2,7 @@
 
 # Test_Colab
 
-![](/project.svg)
+![](/project.png)
 
 
 
