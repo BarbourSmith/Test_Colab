@@ -4,6 +4,12 @@
   "y": 0,
   "uniqueID": "id-938217",
   "name": "Test_Colab",
+  "ioValues": [
+    {
+      "name": "Dist",
+      "ioValue": 10
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -20,8 +26,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.25793650793650796,
-      "y": 0.5292479108635098,
+      "x": 0.2546341463414634,
+      "y": 0.5493827160493827,
       "uniqueID": "id-938220",
       "ioValues": [
         {
@@ -48,8 +54,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.25396825396825395,
-      "y": 0.24233983286908078,
+      "x": 0.255609756097561,
+      "y": 0.2469135802469136,
       "uniqueID": "id-938227",
       "ioValues": [
         {
@@ -80,8 +86,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.4565853658536585,
-      "y": 0.26851851851851855,
+      "x": 0.46243902439024387,
+      "y": 0.30864197530864196,
       "uniqueID": "id-938235",
       "ioValues": [
         {
@@ -94,11 +100,13 @@
         },
         {
           "name": "yDist",
-          "ioValue": 35
+          "ioValue": 3.3333333333333335,
+          "currentEquation": "D"
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 20,
+          "currentEquation": "Dist * 2"
         }
       ]
     },
@@ -177,6 +185,13 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.33641975308641975,
+      "uniqueID": "id-938298",
+      "name": "Dist"
     }
   ],
   "allConnectors": [
