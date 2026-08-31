@@ -100,8 +100,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 15,
+          "currentEquation": "15"
         },
         {
           "name": "zDist",
