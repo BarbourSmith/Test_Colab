@@ -2,7 +2,12 @@
 
 # Test_Colab
 
-![](/project.svg)
+![](/project.png)
+
+## Inputs
+
+- **Dist** (number)
+
 
 
 

@@ -4,11 +4,17 @@
   "y": 0,
   "uniqueID": "id-938217",
   "name": "Test_Colab",
+  "ioValues": [
+    {
+      "name": "Dist",
+      "ioValue": 10
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
       "atomType": "Output",
-      "x": 0.98,
+      "x": 1,
       "y": 0.5,
       "uniqueID": "id-938218",
       "ioValues": [
@@ -20,8 +26,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.25793650793650796,
-      "y": 0.5292479108635098,
+      "x": 0.3,
+      "y": 0.5,
       "uniqueID": "id-938220",
       "ioValues": [
         {
@@ -32,8 +38,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.357936507936508,
-      "y": 0.5292479108635098,
+      "x": 0.4,
+      "y": 0.5,
       "uniqueID": "id-938223",
       "ioValues": [
         {
@@ -48,8 +54,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.25396825396825395,
-      "y": 0.24233983286908078,
+      "x": 0.3,
+      "y": 0.2,
       "uniqueID": "id-938227",
       "ioValues": [
         {
@@ -64,8 +70,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.35396825396825393,
-      "y": 0.24233983286908078,
+      "x": 0.4,
+      "y": 0.2,
       "uniqueID": "id-938231",
       "ioValues": [
         {
@@ -80,8 +86,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.4543650793650794,
-      "y": 0.24512534818941506,
+      "x": 0.5,
+      "y": 0.3,
       "uniqueID": "id-938235",
       "ioValues": [
         {
@@ -94,19 +100,19 @@
         },
         {
           "name": "yDist",
-          "ioValue": 15,
-          "currentEquation": "15"
+          "ioValue": 15
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 20,
+          "currentEquation": "Dist * 2"
         }
       ]
     },
     {
       "atomType": "RegularPolygon",
-      "x": 0.2427248677248677,
-      "y": 0.8133704735376045,
+      "x": 0.2,
+      "y": 0.8,
       "uniqueID": "id-938241",
       "ioValues": [
         {
@@ -115,14 +121,14 @@
         },
         {
           "name": "diameter",
-          "ioValue": 10
+          "ioValue": 12
         }
       ]
     },
     {
       "atomType": "Extrude",
-      "x": 0.3419312169312169,
-      "y": 0.8272980501392758,
+      "x": 0.3,
+      "y": 0.8,
       "uniqueID": "id-938245",
       "ioValues": [
         {
@@ -137,8 +143,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.4391534391534392,
-      "y": 0.8050139275766017,
+      "x": 0.4,
+      "y": 0.8,
       "uniqueID": "id-938249",
       "ioValues": [
         {
@@ -161,8 +167,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.582010582010582,
-      "y": 0.4818941504178273,
+      "x": 0.7,
+      "y": 0.5,
       "uniqueID": "id-938262",
       "ioValues": [
         {
@@ -178,6 +184,13 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0,
+      "y": 0.2,
+      "uniqueID": "id-938298",
+      "name": "Dist"
     }
   ],
   "allConnectors": [
